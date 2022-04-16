@@ -347,7 +347,6 @@ footer{
 }
 
 .project-title {
-    margin-top: 20px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -391,4 +390,8 @@ footer{
 
 .border{
     border: 1px solid #EEEEEE;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
