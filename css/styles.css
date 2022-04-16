@@ -142,7 +142,7 @@ border: 1px solid #ECECEC;
 /* -------------------Main------------------------- */
 .hero{
     background-color: var(--background-color-dark);
-    padding-bottom: 94px;
+    padding-bottom: 200px;
     padding-top: 200px;
 }
 
@@ -175,10 +175,8 @@ border: 1px solid #ECECEC;
     cursor:pointer;
 
     padding: 10px 32px;
-    min-width: 200px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 200px;
     display: block;
     border-radius: 4px;
     }
@@ -196,13 +194,13 @@ border: 1px solid #ECECEC;
     overflow: hidden;
 }
 
-.advantage.list{
-    display: flex;
-}
-
-.advantage{
+.advantage-main{
     padding-bottom: 94px;
     padding-top: 94px;
+}
+
+.advantage.list{
+    display: flex;
 }
 
 .advantage-title{
@@ -222,7 +220,7 @@ border: 1px solid #ECECEC;
     margin-left: 30px;
 }
 
-.example.container{
+.example-main{
     padding-bottom: 94px;
 }
 .example-title{
@@ -291,6 +289,11 @@ footer{
     background-color: var(--background-color-dark);
 }
 
+.footer-main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+} 
+
 .address{
     font-style: normal;
     font-size: 14px;
@@ -308,11 +311,6 @@ footer{
 .contacts-footer:focus{
     color: var(--text-color-hover) 
 }
-
-.container.footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
-} 
 
 .footer-item:nth-child(n + 3){
     margin-top: 9px;
@@ -334,6 +332,7 @@ footer{
     color: #212121;
     background-color: var(--background-color-light);
     cursor:pointer;
+    border: 0px;
 }
 
 .button .item + .item{
